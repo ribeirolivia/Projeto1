@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bowlby One', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-image: url("/Projeto1/assets/img/backgroundGarfield1.jpg") ;
+    padding: 3rem;
+    background-position: center;
+    height: 100px;
+    display: flex;
+}
+
+header{
+    background-color: rgb(235, 211, 79);
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+header h1{
+    color: rgb(19, 17, 17);
+    justify-content: center;
+    padding: .4rem;
+    font-size: 2vw;
+    align-items: center; 
+}
+header h1 span{
+    color: darkorange;
+    
+}
+header div{
+    justify-content: center;
+    padding: .5rem;
+    align-items: center; 
+}
+header div p{
+    font-size: 1.5vw;
+    font-weight: 300;
+    justify-content: center;
+}
+header div p span{
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: rgb(63, 75, 75);
+}
+section{
+    background-color: rgb(235, 211, 79);
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    padding: 5rem;
+}
+section div#imagem img{
+    width: auto;
+    height: 200px;
+    display: block;
+    margin: auto;
+
+}
+section div#botao button{
+    border: black;
+    background-color: darkorange;
+    color: black;
+    padding: .8rem;
+    font-size: .8vw;
+    border-radius: .8rem;
+    justify-content: center;
+    cursor: pointer;
+    transition: 3s ease-out;
+    margin-left: 6rem;
+    
+    
+}
+section div#botao button:hover{
+    background-color: black;
+    color: darkorange;
+    transform: scale(1.1);
+}
